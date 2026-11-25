@@ -4,6 +4,8 @@ const client = new Anthropic();
 
 const MODEL = process.env.LLM_MODEL ?? "claude-haiku-5-5";
 
+let msg = input()
+
 const response = await client.messages.create({
   model: MODEL,
   max_tokens: 256,
