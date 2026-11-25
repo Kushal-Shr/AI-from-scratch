@@ -1,0 +1,30 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      anthropic:
+        specifier: ^0.0.0
+        version: 0.0.0
+      anthropic-ai:
+        specifier: ^0.0.10
+        version: 0.0.10
+
+packages:
+
+  anthropic-ai@0.0.10:
+    resolution: {integrity: sha512-Mjy9gvQRb+cvU9g/APr2OeZQqEoLrd4auN5ymmuGxRxoesj2DNJ+zP2Hw94DXjMTovpgY9H7tsYenoFYbxXSVg==}
+
+  anthropic@0.0.0:
+    resolution: {integrity: sha512-f5q/E0ZTR079xtkh58gFQ5chyLiRYgSoVDGA/hWacvU1DzVt+anoN8tEtTwWbmav6/+w/fFMNMj7r/KAMdOIYw==}
+
+snapshots:
+
+  anthropic-ai@0.0.10: {}
+
+  anthropic@0.0.0: {}
